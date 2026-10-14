@@ -1,0 +1,18 @@
+Step2falah — موبائل سے APK بنانے کی گائیڈ
+
+یہ سورس کوڈ ہے، تیار شدہ APK نہیں۔ صرف Android موبائل سے build کرنے کے لیے GitHub Actions استعمال کیا جا سکتا ہے۔
+
+1) ZIP کو Files app میں Extract کریں۔
+2) GitHub.com پر اکاؤنٹ بنائیں/سائن اِن کریں۔
+3) New repository بنائیں، نام Step2falah رکھیں، Public یا Private منتخب کریں۔
+4) ریپوزٹری میں Add file > Upload files منتخب کریں۔
+5) Extract کیے گئے فولڈر کے اندر کی تمام فائلیں اور فولڈرز اپ لوڈ کریں۔ ZIP فائل کو اکیلا اپ لوڈ نہ کریں۔ `.github/workflows/android.yml` فولڈر بھی لازماً شامل ہو۔
+6) Commit changes کریں۔ GitHub Actions خود build شروع کر سکتا ہے۔
+7) ریپوزٹری کے Actions ٹیب میں تازہ workflow کھولیں۔
+8) Build کامیاب ہو تو Summary/Artifacts میں `Step2falah-debug-apk` ڈاؤن لوڈ کریں۔
+9) ڈاؤن لوڈ شدہ artifact ZIP کو Extract کریں۔ اس میں `app-debug.apk` ہوگی۔
+10) APK پر ٹیپ کریں۔ اگر Android پوچھے تو صرف اسی فائل مینیجر/براؤزر کے لیے Install unknown apps کی اجازت دیں جس سے APK کھول رہے ہیں، پھر Install کریں۔
+
+حفاظت:
+- APK صرف اپنے بنائے/اعتماد والے سورس سے انسٹال کریں۔
+- YouTube کی پابندیوں کو بائی پاس کرنے والا ڈاؤن لوڈر اس پروجیکٹ میں شامل نہیں ہے۔
